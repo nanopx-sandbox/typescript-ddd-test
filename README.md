@@ -1,6 +1,6 @@
 # typescript-ddd-test
 
-Testing with TypeScript and [typeorm](https://typeorm.github.io).
+Testing with TypeScript and [TypeORM](https://typeorm.github.io).
 
 ## Usage
 
