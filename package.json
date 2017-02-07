@@ -1,0 +1,25 @@
+{
+  "name": "typescript-ddd-test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {},
+  "author": "nanopx",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.37",
+    "@types/node": "^7.0.5",
+    "koa": "next",
+    "koa-bodyparser": "next",
+    "koa-router": "next",
+    "mysql": "^2.13.0",
+    "reflect-metadata": "^0.1.9",
+    "routing-controllers": "^0.6.9",
+    "typedi": "^0.4.3",
+    "typeorm": "^0.0.8",
+    "typeorm-routing-controllers-extensions": "^0.0.6",
+    "typeorm-typedi-extensions": "^0.0.8"
+  }
+}
