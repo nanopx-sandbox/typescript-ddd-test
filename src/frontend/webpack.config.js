@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: "./src/frontend/client.ts",
+  entry: "./src/frontend/index.ts",
 
   output: {
     path: path.resolve(__dirname, 'dist'),
