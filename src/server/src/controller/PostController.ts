@@ -7,7 +7,7 @@
 import { JsonController as JSONController, Get as HttpGet, Post as HttpPost, Patch as HttpPatch } from 'routing-controllers';
 import { getConnectionManager, Repository } from 'typeorm';
 import { EntityFromParam, EntityFromBody, EntityFromBodyParam } from 'typeorm-routing-controllers-extensions';
-import { Post } from '../Entity/Post';
+import { Post } from '../shared/entity/Post';
 
 @JSONController()
 export class PostController {

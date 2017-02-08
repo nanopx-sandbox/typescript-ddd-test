@@ -6,7 +6,7 @@
 
 import { Repository, EntityManager } from "typeorm";
 import { Service } from "typedi";
-import { Post } from "../Entity/Post";
+import { Post } from "../entity/Post";
 import { OrmRepository, OrmEntityManager } from 'typeorm-typedi-extensions';
 
 @Service()
@@ -29,5 +29,4 @@ export class PostRepository {
   findAll() {
     return this.ormRepository.find();
   }
-
 }

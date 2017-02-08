@@ -6,7 +6,8 @@
   "author": "nanopx",
   "license": "MIT",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "build:frontend": "webpack --config ./src/frontend/webpack.config.js"
   },
   "dependencies": {
     "@types/koa": "^2.0.37",
@@ -20,6 +21,11 @@
     "typedi": "^0.4.3",
     "typeorm": "^0.0.8",
     "typeorm-routing-controllers-extensions": "^0.0.6",
-    "typeorm-typedi-extensions": "^0.0.8"
+    "typeorm-typedi-extensions": "^0.0.8",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "webpack": "^2.2.1"
   }
 }
