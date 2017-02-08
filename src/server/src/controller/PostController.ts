@@ -18,6 +18,11 @@ export class PostController {
     this.postRepository = getConnectionManager().get().getRepository(Post);
   }
 
+  @HttpGet('/posts')
+  getAllPosts() {
+    return this.postRepository.find();
+  }
+
   @HttpGet('/posts/:id')
   get(@EntityFromParam('id') post: Post) {
     return post;
