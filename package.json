@@ -10,6 +10,7 @@
     "build:frontend": "webpack --config ./src/frontend/webpack.config.js"
   },
   "dependencies": {
+    "@types/es6-promise": "0.0.32",
     "@types/koa": "^2.0.37",
     "@types/node": "^7.0.5",
     "koa": "next",

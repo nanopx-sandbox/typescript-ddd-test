@@ -2,7 +2,7 @@ src/**/*.js
 src/**/*.js.map
 typings/
 node_modules/
-frontend/dist/
+frontend/static/dist/
 
 !webpack.config.js
 ormconfig.json

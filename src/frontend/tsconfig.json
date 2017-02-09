@@ -4,6 +4,11 @@
     "target": "es5",
     "sourceMap": true,
     "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "../",
+    "paths": {
+      "*": [ "*" ]
+    },
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "strictNullChecks": true,

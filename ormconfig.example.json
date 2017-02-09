@@ -11,13 +11,13 @@
     },
     "autoSchemaSync": true,
     "entities": [
-      "src/shared/entity/*.js"
+      "src/shared/entities/*.js"
     ],
     "subscribers": [
-      "src/shared/subscriber/*.js,"
+      "src/shared/subscribers/*.js,"
     ],
     "migrations": [
-      "src/server/migration/*.js"
+      "src/server/migrations/*.js"
     ],
     "cli": {
       "entitiesDir": "src/entity",

@@ -2,8 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "sourceMap": true,
+    "jsx": "react",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules"

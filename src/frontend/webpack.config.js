@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/frontend/index.ts",
 
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'static/dist'),
     filename: "bundle.js"
   },
 
