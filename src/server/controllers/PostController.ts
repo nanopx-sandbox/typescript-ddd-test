@@ -5,7 +5,9 @@
  */
 
 import {Service} from "typedi";
-import {JsonController, Get as HttpGet, Post as HttpPost, Patch as HttpPatch, TextResponse} from "routing-controllers";
+import {
+  JsonController, Get as HttpGet, Post as HttpPost, Patch as HttpPatch, TextResponse,
+} from "routing-controllers";
 import {OrmRepository} from "typeorm-typedi-extensions";
 import {Repository} from "typeorm";
 import {EntityFromParam, EntityFromBody, EntityFromBodyParam} from "typeorm-routing-controllers-extensions";

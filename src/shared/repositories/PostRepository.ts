@@ -6,7 +6,7 @@
 
 import {Repository, EntityRepository, EntityManager} from "typeorm";
 import { OrmEntityManager } from 'typeorm-typedi-extensions';
-import RepositoryInterface from "../../interfaces/RepositoryInterface";
+import RepositoryInterface from "../interfaces/RepositoryInterface";
 import { Post } from "../../shared/entities/Post";
 
 @EntityRepository(Post)

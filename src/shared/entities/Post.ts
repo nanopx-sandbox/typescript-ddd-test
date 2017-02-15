@@ -4,12 +4,11 @@
  * typescript-ddd - Post
  */
 
-import EntityInterface from '../../interfaces/EntityInterface';
+import EntityInterface from '../interfaces/EntityInterface';
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
 export class Post implements EntityInterface {
-
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -18,5 +17,4 @@ export class Post implements EntityInterface {
 
   @Column()
   text: string;
-
 }

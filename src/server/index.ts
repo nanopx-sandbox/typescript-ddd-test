@@ -14,9 +14,13 @@ useControllerContainer(Container);
 
 createConnection()
 .then((connection) => {
-  createKoaServer({
+  const app = createKoaServer({
+    routePrefix: "/api",
     controllers: [ __dirname + '/controllers/**/*.js' ]
-  }).listen(3000);
+  });
+
+  app.listen(3000);
+
   console.log('Server started at http://localhost:3000/');
   console.log(getMetadataArgsStorage());
 })
